@@ -1,0 +1,774 @@
+The target system is: iOS -  - 
+The host system is: Darwin - 21.6.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+2022-07-30 22:05:07.884 xcodebuild[21067:930409] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:07.884 xcodebuild[21067:930409] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 52008bf9d8acde1db3069dc401c914c9
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/./XCBuildData/52008bf9d8acde1db3069dc401c914c9-desc.xcbuild
+
+note: Build preparation complete
+warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+
+warning: ONLY_ACTIVE_ARCH=YES requested with multiple ARCHS and no active architecture could be computed; building for all applicable architectures (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Skipping code signing because the target does not have an Info.plist file and one is not being generated automatically. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios15.5-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    export LANG\=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-ios15.5-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX normal x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios15.5-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/Developer/Library/Frameworks -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX normal arm64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-ios15.5-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/Developer/Library/Frameworks -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX
+
+CreateUniversalBinary /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX normal arm64\ x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/arm64/Binary/CompilerIdCXX /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/Binary/CompilerIdCXX -output /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /bin/sh -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64 x86_64
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2b207 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:22.635 xcodebuild[21109:930843] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:22.635 xcodebuild[21109:930843] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2b207 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: d08458a486e9c9f145fd78eaa37f8646
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/d08458a486e9c9f145fd78eaa37f8646-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207.LinkFileList (in target 'cmTC_2b207' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207.LinkFileList
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_2b207' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-ios13.0-simulator
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios13.0.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -tune-cpu generic -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 763 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6 -dependency-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -D "CMAKE_INTDIR=\"Debug-iphonesimulator\"" -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources-normal/x86_64 -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources/x86_64 -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -fdeprecated-macro -fdebug-compilation-dir=/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.1.6 (clang-1316.0.21.2.5) default target x86_64-apple-darwin21.6.0
+ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources-normal/x86_64"
+ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources/x86_64"
+ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+Libtool /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/libcmTC_2b207.a normal (in target 'cmTC_2b207' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207.LinkFileList -dependency_info /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207_libtool_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/libcmTC_2b207.a
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2b207 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:22.635 xcodebuild[21109:930843] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore]
+  ignore line: [2022-07-30 22:05:22.635 xcodebuild[21109:930843] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore]
+  ignore line: [Command line invocation:]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2b207 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+  ignore line: []
+  ignore line: [User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+  ignore line: []
+  ignore line: [note: Using new build system]
+  ignore line: [note: Planning]
+  ignore line: [Analyze workspace]
+  ignore line: []
+  ignore line: [Create build description]
+  ignore line: [Build description signature: d08458a486e9c9f145fd78eaa37f8646]
+  ignore line: [Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/d08458a486e9c9f145fd78eaa37f8646-desc.xcbuild]
+  ignore line: []
+  ignore line: [note: Build preparation complete]
+  ignore line: [note: Building targets in dependency order]
+  ignore line: [CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp]
+  ignore line: [    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug]
+  ignore line: [    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207.LinkFileList (in target 'cmTC_2b207' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_2b207' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2.5)]
+  ignore line: [Target: x86_64-apple-ios13.0-simulator]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios13.0.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -tune-cpu generic -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 763 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6 -dependency-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -D "CMAKE_INTDIR=\"Debug-iphonesimulator\"" -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources-normal/x86_64 -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources/x86_64 -I /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -fdeprecated-macro -fdebug-compilation-dir=/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.1.6 (clang-1316.0.21.2.5) default target x86_64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources-normal/x86_64"]
+  ignore line: [ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources/x86_64"]
+  ignore line: [ignoring nonexistent directory "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Libtool /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/libcmTC_2b207.a normal (in target 'cmTC_2b207' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207.LinkFileList -dependency_info /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_2b207.build/Objects-normal/x86_64/cmTC_2b207_libtool_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/libcmTC_2b207.a]
+  ignore line: []
+  ignore line: [** BUILD SUCCEEDED **]
+  ignore line: []
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_df345 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:26.231 xcodebuild[21124:930970] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:26.231 xcodebuild[21124:930970] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_df345 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 873b3a0303c2b426e1517a7736ac39a2
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/873b3a0303c2b426e1517a7736ac39a2-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/Info.plist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_df345.dir/Info.plist (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_df345.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/Info.plist
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/CheckIncludeFile.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/cmTC_df345.LinkFileList (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/cmTC_df345.LinkFileList
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/cmTC_df345 normal (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/cmTC_df345.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/cmTC_df345_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_df345.build/Objects-normal/x86_64/cmTC_df345_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/cmTC_df345
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/cmTC_df345 (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app/cmTC_df345 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app.dSYM
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app (in target 'cmTC_df345' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_df345.app
+
+** BUILD SUCCEEDED **
+
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e7c90 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:29.945 xcodebuild[21142:931069] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:29.946 xcodebuild[21142:931069] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e7c90 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 508e61b6eca4ed2e5405fc7ceb43d46d
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/508e61b6eca4ed2e5405fc7ceb43d46d-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/Info.plist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e7c90.dir/Info.plist (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e7c90.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/Info.plist
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/src.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/src.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/src.o
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/cmTC_e7c90.LinkFileList (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/cmTC_e7c90.LinkFileList
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/cmTC_e7c90 normal (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/cmTC_e7c90.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/cmTC_e7c90_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_e7c90.build/Objects-normal/x86_64/cmTC_e7c90_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/cmTC_e7c90
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/cmTC_e7c90 (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app/cmTC_e7c90 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app.dSYM
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app (in target 'cmTC_e7c90' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_e7c90.app
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9a9d4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:32.795 xcodebuild[21163:931168] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:32.796 xcodebuild[21163:931168] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9a9d4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 2f24b8567dfc26bbf2696e6ee79606f4
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/2f24b8567dfc26bbf2696e6ee79606f4-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/Info.plist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9a9d4.dir/Info.plist (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9a9d4.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/Info.plist
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/cmTC_9a9d4.LinkFileList (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/cmTC_9a9d4.LinkFileList
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/src.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -DHAVE_STDATOMIC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/src.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/src.o
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/cmTC_9a9d4 normal (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/cmTC_9a9d4.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/cmTC_9a9d4_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_9a9d4.build/Objects-normal/x86_64/cmTC_9a9d4_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/cmTC_9a9d4
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/cmTC_9a9d4 (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app/cmTC_9a9d4 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app.dSYM
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app (in target 'cmTC_9a9d4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_9a9d4.app
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_6bc12 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:37.178 xcodebuild[21197:931353] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:37.179 xcodebuild[21197:931353] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_6bc12 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 25659f20542ead4fe7dcd186302f3d32
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/25659f20542ead4fe7dcd186302f3d32-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/Info.plist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6bc12.dir/Info.plist (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6bc12.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/Info.plist
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/cmTC_6bc12.LinkFileList (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/cmTC_6bc12.LinkFileList
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/cmTC_6bc12 normal (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/cmTC_6bc12.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/cmTC_6bc12_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_6bc12.build/Objects-normal/x86_64/cmTC_6bc12_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/cmTC_6bc12
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/cmTC_6bc12 (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app/cmTC_6bc12 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app.dSYM
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app (in target 'cmTC_6bc12' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_6bc12.app
+
+** BUILD SUCCEEDED **
+
+
+
+File /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_GETTIME succeeded with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4c7bb -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:39.923 xcodebuild[21224:931480] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:39.923 xcodebuild[21224:931480] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4c7bb -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 5d24184ad5b0d3512ed04ffdb428dcf8
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/5d24184ad5b0d3512ed04ffdb428dcf8-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/Info.plist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4c7bb.dir/Info.plist (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4c7bb.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/Info.plist
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/src.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -DHAVE_GETTIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/src.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/src.o
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/cmTC_4c7bb.LinkFileList (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/cmTC_4c7bb.LinkFileList
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/cmTC_4c7bb normal (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/cmTC_4c7bb.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/cmTC_4c7bb_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_4c7bb.build/Objects-normal/x86_64/cmTC_4c7bb_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/cmTC_4c7bb
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/cmTC_4c7bb (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app/cmTC_4c7bb -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app.dSYM
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app (in target 'cmTC_4c7bb' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_4c7bb.app
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+
+#include <unistd.h>
+#include <time.h>
+
+int main(int argc, char *argv[]) {
+    timespec ts; clock_gettime(CLOCK_REALTIME, &ts);
+}
+Performing C++ SOURCE FILE Test HAVE_GLESv2 succeeded with the following output:
+Change Dir: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d1214 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-30 22:05:45.715 xcodebuild[21257:931635] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-30 22:05:45.715 xcodebuild[21257:931635] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d1214 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 16106c19e0c20ab30dca47a738a5a8c0
+Build description path: /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/16106c19e0c20ab30dca47a738a5a8c0-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/Info.plist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d1214.dir/Info.plist (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d1214.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/Info.plist
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/cmTC_d1214.LinkFileList (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/cmTC_d1214.LinkFileList
+
+CompileC /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/src.o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -DHAVE_GLESv2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/DerivedSources -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/System/Library/Frameworks -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/src.dia -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/src.o
+/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx:10:5: warning: 'glUniform1f' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+    glUniform1f(1, GLfloat(1.0));
+    ^
+In file included from /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx:3:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h:593:35: note: 'glUniform1f' has been explicitly marked deprecated here
+GL_API void           GL_APIENTRY glUniform1f (GLint location, GLfloat x)   OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+                                  ^
+/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx:11:5: warning: 'glClear' is deprecated: first deprecated in iOS 12.0 - OpenGLES API deprecated. (Define GLES_SILENCE_DEPRECATION to silence these warnings) [-Wdeprecated-declarations]
+    glClear(GL_COLOR_BUFFER_BIT);
+    ^
+In file included from /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx:3:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h:497:35: note: 'glClear' has been explicitly marked deprecated here
+GL_API void           GL_APIENTRY glClear (GLbitfield mask) OPENGLES_DEPRECATED(ios(3.0, 12.0), tvos(9.0, 12.0));
+                                  ^
+2 warnings generated.
+
+Ld /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/cmTC_d1214 normal (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk/System/Library/Frameworks -filelist /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/cmTC_d1214.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/cmTC_d1214_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Wl,-headerpad_max_install_names -framework OpenGLES -Xlinker -dependency_info -Xlinker /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_d1214.build/Objects-normal/x86_64/cmTC_d1214_dependency_info.dat -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/cmTC_d1214
+
+GenerateDSYMFile /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app.dSYM /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/cmTC_d1214 (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app/cmTC_d1214 -o /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app.dSYM
+
+RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app
+
+Touch /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app (in target 'cmTC_d1214' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_d1214.app
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+
+#ifdef __APPLE__
+#  include <OpenGLES/ES2/gl.h>
+#else
+#  define GL_GLEXT_PROTOTYPES
+#  include <GLES2/gl2.h>
+#endif
+
+int main(int argc, char *argv[]) {
+    glUniform1f(1, GLfloat(1.0));
+    glClear(GL_COLOR_BUFFER_BIT);
+}

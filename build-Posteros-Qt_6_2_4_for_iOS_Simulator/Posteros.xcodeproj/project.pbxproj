@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EE5B564F40E4A8C92FFFAF2 /* Posteros_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24F77F967CC04DB19926B0AD /* Build configuration list for PBXAggregateTarget "Posteros_autogen" */;
+			buildPhases = (
+				8DFE6C670C679AE2D8D91E6D /* Generate CMakeFiles/Posteros_autogen */,
+			);
+			dependencies = (
+				1EB2BD0D7E3E4067AA02B9E3 /* PBXTargetDependency */,
+			);
+			name = Posteros_autogen;
+			productName = Posteros_autogen;
+		};
+		7ACF74DC724F46F797AFB707 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D57F7BEB99154B00A25D2251 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				51ABAC6756674F1B7C11252F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D318EDB46D974CA8B6EA09AA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6DAFC223705B435A8BC12758 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FECC525B6FFDBA44AACE5B34 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				53DCE48AA1EE4849A9131394 /* PBXTargetDependency */,
+				8200B7DD7BA34DBC8DECC248 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1C7ABFB1CEF843DC99ECCB0B /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9569421653C749D09DC75167 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist */; };
+		75C8A56E55354028BD5328F2 /* /Users/natanon/Documents/Qt/Posteros/posterosapp.cpp */ = {isa = PBXBuildFile; fileRef = 72E2B4AAEDD143C5B059C74C /* /Users/natanon/Documents/Qt/Posteros/posterosapp.cpp */; };
+		8383506D7E42409B84CCB553 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/qt_story_boards/Posteros/LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = F248D4D2132949D085A983AA /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/qt_story_boards/Posteros/LaunchScreen.storyboard */; };
+		8D0F23D8FDF64DC59FF43012 /* /Users/natanon/Documents/Qt/Posteros/main.cpp */ = {isa = PBXBuildFile; fileRef = D564E907DA1B497487B1FAD3 /* /Users/natanon/Documents/Qt/Posteros/main.cpp */; };
+		91D5199AD80A41AE94E638C7 /* /Users/natanon/Documents/Qt/Posteros/posterosapp.ui */ = {isa = PBXBuildFile; fileRef = 324A1F55AB7443348A46E47B /* /Users/natanon/Documents/Qt/Posteros/posterosapp.ui */; };
+		981D06BB412542E4BDB2A78D /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 18F9CD80C97D42CFB97C6500 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp */; };
+		9A4E341358F04C57BF1EC7EF /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 263B127468374653953131F6 /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */; };
+		A630218AB4D74ED89648F367 /* /Users/natanon/Documents/Qt/Posteros/Posteros_en_US.ts */ = {isa = PBXBuildFile; fileRef = 83E54207A5114C988F50DE37 /* /Users/natanon/Documents/Qt/Posteros/Posteros_en_US.ts */; };
+		A9493079018C43A6A4EEE2D9 /* /Users/natanon/Documents/Qt/Posteros/posterosapp.h */ = {isa = PBXBuildFile; fileRef = 9A601D6733DE4972B4B183AB /* /Users/natanon/Documents/Qt/Posteros/posterosapp.h */; };
+		CECFB6CEF0264CA5B51B82BD /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include/ui_posterosapp.h */ = {isa = PBXBuildFile; fileRef = A7B26893E73846BDA68976FA /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include/ui_posterosapp.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4C29825CA00F484D823CC664 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A26062793DCB461BAD4F7BD7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CCE97A1262D145BCBDF605E2 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CFEE69CEDE4F49D098CE8D62 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		24AEADC9C05645F9BD4D6C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96702B6FA8864E1695AC7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACF74DC724F46F797AFB707;
+			remoteInfo = ZERO_CHECK;
+		};
+		38408978749240AE80A8CB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96702B6FA8864E1695AC7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F91756C1EA54C86ABEE4C6C;
+			remoteInfo = Posteros;
+		};
+		894DDBEEDDB2488B9CF4EF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96702B6FA8864E1695AC7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE5B564F40E4A8C92FFFAF2;
+			remoteInfo = Posteros_autogen;
+		};
+		8B502F09133346D9B8D72BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96702B6FA8864E1695AC7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACF74DC724F46F797AFB707;
+			remoteInfo = ZERO_CHECK;
+		};
+		ED1CB633DD0A4E7F9E6E8488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96702B6FA8864E1695AC7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACF74DC724F46F797AFB707;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F9CD80C97D42CFB97C6500 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "../build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		263B127468374653953131F6 /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		324A1F55AB7443348A46E47B /* /Users/natanon/Documents/Qt/Posteros/posterosapp.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = posterosapp.ui; path = posterosapp.ui; sourceTree = SOURCE_ROOT; };
+		72E2B4AAEDD143C5B059C74C /* /Users/natanon/Documents/Qt/Posteros/posterosapp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = posterosapp.cpp; path = posterosapp.cpp; sourceTree = SOURCE_ROOT; };
+		83E54207A5114C988F50DE37 /* /Users/natanon/Documents/Qt/Posteros/Posteros_en_US.ts */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Posteros_en_US.ts; path = Posteros_en_US.ts; sourceTree = SOURCE_ROOT; };
+		9300577C473243F489B45219 /* Posteros */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Posteros; sourceTree = BUILT_PRODUCTS_DIR; };
+		9569421653C749D09DC75167 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		9A601D6733DE4972B4B183AB /* /Users/natanon/Documents/Qt/Posteros/posterosapp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posterosapp.h; path = posterosapp.h; sourceTree = SOURCE_ROOT; };
+		A410FEBACF9A441FA0BE3528 /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A7B26893E73846BDA68976FA /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include/ui_posterosapp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_posterosapp.h; path = "../build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include/ui_posterosapp.h"; sourceTree = SOURCE_ROOT; };
+		D564E907DA1B497487B1FAD3 /* /Users/natanon/Documents/Qt/Posteros/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		D7224CBA21384F118DBC36FE /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F248D4D2132949D085A983AA /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/qt_story_boards/Posteros/LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../build-Posteros-Qt_6_2_4_for_iOS_Simulator/qt_story_boards/Posteros/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4C0EBC14A7743658DC6552A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194214B6671E478BBA6CAF5A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A601D6733DE4972B4B183AB /* /Users/natanon/Documents/Qt/Posteros/posterosapp.h */,
+				A7B26893E73846BDA68976FA /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include/ui_posterosapp.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1E21EBA7DA45476E8F512641 = {
+			isa = PBXGroup;
+			children = (
+				ED95FB88D60E422D8ACAD6CE /* Posteros */,
+				6E7CB7316079457EBF3CB542 /* Posteros_autogen */,
+				F662AE7EAB2F42CE8C7F146D /* ALL_BUILD */,
+				1EB8814C52C847E4AFAFC933 /* Products */,
+				9C0A65352606475AAD9026FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EB8814C52C847E4AFAFC933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9300577C473243F489B45219 /* Posteros */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5387A6EF4F1B43709D293BB7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D564E907DA1B497487B1FAD3 /* /Users/natanon/Documents/Qt/Posteros/main.cpp */,
+				72E2B4AAEDD143C5B059C74C /* /Users/natanon/Documents/Qt/Posteros/posterosapp.cpp */,
+				18F9CD80C97D42CFB97C6500 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6BDF5EF0177D4FFFA65A5A11 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6E7CB7316079457EBF3CB542 /* Posteros_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC9190B8BA4B889D64486F /* CMake Rules */,
+				D7224CBA21384F118DBC36FE /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */,
+			);
+			name = Posteros_autogen;
+			sourceTree = "<group>";
+		};
+		9C0A65352606475AAD9026FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C3CF00DBA144F1A1435FB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9569421653C749D09DC75167 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist */,
+				F248D4D2132949D085A983AA /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/qt_story_boards/Posteros/LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ED95FB88D60E422D8ACAD6CE /* Posteros */ = {
+			isa = PBXGroup;
+			children = (
+				5387A6EF4F1B43709D293BB7 /* Source Files */,
+				194214B6671E478BBA6CAF5A /* Header Files */,
+				D0C3CF00DBA144F1A1435FB9 /* Resources */,
+				263B127468374653953131F6 /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */,
+				83E54207A5114C988F50DE37 /* /Users/natanon/Documents/Qt/Posteros/Posteros_en_US.ts */,
+				324A1F55AB7443348A46E47B /* /Users/natanon/Documents/Qt/Posteros/posterosapp.ui */,
+			);
+			name = Posteros;
+			sourceTree = "<group>";
+		};
+		F662AE7EAB2F42CE8C7F146D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6BDF5EF0177D4FFFA65A5A11 /* CMake Rules */,
+				A410FEBACF9A441FA0BE3528 /* /Users/natanon/Documents/Qt/Posteros/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FBCC9190B8BA4B889D64486F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F91756C1EA54C86ABEE4C6C /* Posteros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1515ADC100A148A7AAC2C04E /* Build configuration list for PBXNativeTarget "Posteros" */;
+			buildPhases = (
+				9835B6DCDC7345418507AC02 /* Resources */,
+				A42DE8D696E54BBE8456AC05 /* Sources */,
+				A4C0EBC14A7743658DC6552A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96023A70D3CD4410863193D6 /* PBXTargetDependency */,
+				FAC80A7A1B3047BAA884462A /* PBXTargetDependency */,
+			);
+			name = Posteros;
+			productName = Posteros;
+			productReference = 9300577C473243F489B45219 /* Posteros */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96702B6FA8864E1695AC7565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 268B76CC98CF48619B91D978 /* Build configuration list for PBXProject "Posteros" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A26062793DCB461BAD4F7BD7 /* Debug */,
+				4C29825CA00F484D823CC664 /* Release */,
+				CCE97A1262D145BCBDF605E2 /* MinSizeRel */,
+				CFEE69CEDE4F49D098CE8D62 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1E21EBA7DA45476E8F512641;
+			projectDirPath = /Users/natanon/Documents/Qt/Posteros;
+			projectRoot = "";
+			targets = (
+				D318EDB46D974CA8B6EA09AA /* ALL_BUILD */,
+				8F91756C1EA54C86ABEE4C6C /* Posteros */,
+				1EE5B564F40E4A8C92FFFAF2 /* Posteros_autogen */,
+				7ACF74DC724F46F797AFB707 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		51ABAC6756674F1B7C11252F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8DFE6C670C679AE2D8D91E6D /* Generate CMakeFiles/Posteros_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/Posteros_autogen";
+			outputPaths = (
+"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros_autogen","/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_Debug/ui_posterosapp.h","/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_MinSizeRel/ui_posterosapp.h","/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_RelWithDebInfo/ui_posterosapp.h","/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_Release/ui_posterosapp.h","/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A12ACFE0278AA140514C4656 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FECC525B6FFDBA44AACE5B34 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9835B6DCDC7345418507AC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8383506D7E42409B84CCB553 /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/qt_story_boards/Posteros/LaunchScreen.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42DE8D696E54BBE8456AC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F23D8FDF64DC59FF43012 /* /Users/natanon/Documents/Qt/Posteros/main.cpp */,
+				75C8A56E55354028BD5328F2 /* /Users/natanon/Documents/Qt/Posteros/posterosapp.cpp */,
+				981D06BB412542E4BDB2A78D /* /Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EB2BD0D7E3E4067AA02B9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACF74DC724F46F797AFB707 /* ZERO_CHECK */;
+			targetProxy = ED1CB633DD0A4E7F9E6E8488 /* PBXContainerItemProxy */;
+		};
+		53DCE48AA1EE4849A9131394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACF74DC724F46F797AFB707 /* ZERO_CHECK */;
+			targetProxy = 8B502F09133346D9B8D72BB4 /* PBXContainerItemProxy */;
+		};
+		8200B7DD7BA34DBC8DECC248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F91756C1EA54C86ABEE4C6C /* Posteros */;
+			targetProxy = 38408978749240AE80A8CB86 /* PBXContainerItemProxy */;
+		};
+		96023A70D3CD4410863193D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACF74DC724F46F797AFB707 /* ZERO_CHECK */;
+			targetProxy = 24AEADC9C05645F9BD4D6C6E /* PBXContainerItemProxy */;
+		};
+		FAC80A7A1B3047BAA884462A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE5B564F40E4A8C92FFFAF2 /* Posteros_autogen */;
+			targetProxy = 894DDBEEDDB2488B9CF4EF84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0147BF91BAB343E1A72DF191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		025A555A014B47FE83864D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator",/Users/natanon/Documents/Qt/Posteros,"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_Release","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Widgets.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqgif.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqico.a,/Users/natanon/Qt/6.2.4/ios/plugins/platforms/libqios.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqjpeg.a,/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/libqsvgicon.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.2.4/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Svg.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledHarfbuzz.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledFreetype.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledLibpng.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core.a,"-framework CoreFoundation","-framework Foundation","-lz","-lm",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = Posteros;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.2.4/ios/include/QtCore,/Users/natanon/Qt/6.2.4/ios/include,"/Users/natanon/Qt/6.2.4/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.2.4/ios/include/QtWidgets,/Users/natanon/Qt/6.2.4/ios/include/QtGui,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0A8E63DD7B9942A4859D0B2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		14E3F923236040AEBC94306A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		372012EA943648788C221262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Posteros_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4BA75021FFEB4B3CAA77807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/build";
+			};
+			name = Debug;
+		};
+		4CF81F198190498EB448FEB7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator",/Users/natanon/Documents/Qt/Posteros,"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_MinSizeRel","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Widgets.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqgif.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqico.a,/Users/natanon/Qt/6.2.4/ios/plugins/platforms/libqios.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqjpeg.a,/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/libqsvgicon.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.2.4/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Svg.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledHarfbuzz.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledFreetype.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledLibpng.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core.a,"-framework CoreFoundation","-framework Foundation","-lz","-lm",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = Posteros;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.2.4/ios/include/QtCore,/Users/natanon/Qt/6.2.4/ios/include,"/Users/natanon/Qt/6.2.4/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.2.4/ios/include/QtWidgets,/Users/natanon/Qt/6.2.4/ios/include/QtGui,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		691D1987D4B34EA48F4D3D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		745C73FAC4D94213A1E6222E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Posteros_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		79CE92B16F0B4190A272E623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator",/Users/natanon/Documents/Qt/Posteros,"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_Debug","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core_debug.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Widgets_debug.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqgif_debug.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqico_debug.a,/Users/natanon/Qt/6.2.4/ios/plugins/platforms/libqios_debug.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqjpeg_debug.a,/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/libqsvgicon_debug.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqsvg_debug.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.2.4/ios/lib/libQt6OpenGL_debug.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Svg_debug.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Gui_debug.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledHarfbuzz_debug.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledFreetype_debug.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledLibpng_debug.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core_debug.a,"-framework CoreFoundation","-framework Foundation","-lz","-lm",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledPcre2_debug.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = Posteros;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.2.4/ios/include/QtCore,/Users/natanon/Qt/6.2.4/ios/include,"/Users/natanon/Qt/6.2.4/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.2.4/ios/include/QtWidgets,/Users/natanon/Qt/6.2.4/ios/include/QtGui,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7A19A65636DF4F9F8016E213 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		848C7B6DF41F40F2B6959353 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9A0E513F9A4043FDAA3A16D2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/build";
+			};
+			name = MinSizeRel;
+		};
+		9E428C8DE6AF432BB760317A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Posteros_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B3CE3521F375411FBE5227D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BEDA529940B144C5A94AF07A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Posteros_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C230EE4E239F412D8A5892FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DBAA9236729E40E39930FC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/build";
+			};
+			name = Release;
+		};
+		F34F45765E2040DE9CE3FE6E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator",/Users/natanon/Documents/Qt/Posteros,"/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/Posteros_autogen/include_RelWithDebInfo","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.2.4/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Widgets.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqgif.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqico.a,/Users/natanon/Qt/6.2.4/ios/plugins/platforms/libqios.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqjpeg.a,/Users/natanon/Qt/6.2.4/ios/plugins/iconengines/libqsvgicon.a,/Users/natanon/Qt/6.2.4/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.2.4/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.2.4/ios/lib/libQt6Svg.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledHarfbuzz.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledFreetype.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledLibpng.a,/Users/natanon/Qt/6.2.4/ios/lib/libQt6Core.a,"-framework CoreFoundation","-framework Foundation","-lz","-lm",/Users/natanon/Qt/6.2.4/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = Posteros;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.2.4/ios/include/QtCore,/Users/natanon/Qt/6.2.4/ios/include,"/Users/natanon/Qt/6.2.4/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.2.4/ios/include/QtWidgets,/Users/natanon/Qt/6.2.4/ios/include/QtGui,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F3A0CD36CD2843208400CFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1515ADC100A148A7AAC2C04E /* Build configuration list for PBXNativeTarget "Posteros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CE92B16F0B4190A272E623 /* Debug */,
+				025A555A014B47FE83864D6A /* Release */,
+				4CF81F198190498EB448FEB7 /* MinSizeRel */,
+				F34F45765E2040DE9CE3FE6E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24F77F967CC04DB19926B0AD /* Build configuration list for PBXAggregateTarget "Posteros_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372012EA943648788C221262 /* Debug */,
+				745C73FAC4D94213A1E6222E /* Release */,
+				9E428C8DE6AF432BB760317A /* MinSizeRel */,
+				BEDA529940B144C5A94AF07A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		268B76CC98CF48619B91D978 /* Build configuration list for PBXProject "Posteros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA75021FFEB4B3CAA77807A /* Debug */,
+				DBAA9236729E40E39930FC76 /* Release */,
+				9A0E513F9A4043FDAA3A16D2 /* MinSizeRel */,
+				848C7B6DF41F40F2B6959353 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DAFC223705B435A8BC12758 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691D1987D4B34EA48F4D3D4D /* Debug */,
+				F3A0CD36CD2843208400CFB5 /* Release */,
+				B3CE3521F375411FBE5227D9 /* MinSizeRel */,
+				C230EE4E239F412D8A5892FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D57F7BEB99154B00A25D2251 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147BF91BAB343E1A72DF191 /* Debug */,
+				14E3F923236040AEBC94306A /* Release */,
+				0A8E63DD7B9942A4859D0B2A /* MinSizeRel */,
+				7A19A65636DF4F9F8016E213 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96702B6FA8864E1695AC7565 /* Project object */;
+}

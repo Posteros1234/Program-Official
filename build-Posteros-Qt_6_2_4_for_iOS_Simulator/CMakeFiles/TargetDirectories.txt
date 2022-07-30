@@ -1,0 +1,4 @@
+/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros.dir
+/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/Posteros_autogen.dir
+/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/ALL_BUILD.dir
+/Users/natanon/Documents/Qt/build-Posteros-Qt_6_2_4_for_iOS_Simulator/CMakeFiles/ZERO_CHECK.dir
