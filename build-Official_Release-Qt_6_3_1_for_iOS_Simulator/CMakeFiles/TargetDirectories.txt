@@ -1,0 +1,5 @@
+/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir
+/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/install.dir
+/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release_autogen.dir
+/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/ALL_BUILD.dir
+/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/ZERO_CHECK.dir

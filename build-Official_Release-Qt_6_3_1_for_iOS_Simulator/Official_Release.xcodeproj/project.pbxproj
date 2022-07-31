@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4B25BF6C66BD4938A4EE5087 /* Official_Release_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A694F021F1BD4A5BBA0760DE /* Build configuration list for PBXAggregateTarget "Official_Release_autogen" */;
+			buildPhases = (
+				67F08D448993D9F2BEF69D8D /* Generate CMakeFiles/Official_Release_autogen */,
+			);
+			dependencies = (
+				CE6F2619F1214F0DAC792681 /* PBXTargetDependency */,
+			);
+			name = Official_Release_autogen;
+			productName = Official_Release_autogen;
+		};
+		58991E2308D84107960E8594 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1BFAB75D4E54425AB366D690 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A976F59C3061CAD7B00204AB /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				CBBA0E87258F4F2CBBC3ADE9 /* PBXTargetDependency */,
+				B1A171A89E6348749842B173 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EA3FC332F49C44B68FEBB227 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 303A0D67C4B6453BB30C981B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4B461BD47CE4E679D343FD81 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		EC835706BD444AB1BA76F5A8 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BAE51CA06DA44E9B9271F62 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DB2E775B2113418D8C56663C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E4D562DBAA476D8DAD143D /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include/ui_mainwindow.h */ = {isa = PBXBuildFile; fileRef = C59ABAE2DC2E49369127F11B /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include/ui_mainwindow.h */; };
+		595B212EA91144D9987B9429 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = 94B4B7CEE7AB489B8DD8E792 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.cpp */; };
+		735F81CCCB61425789E1E2A8 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.h */ = {isa = PBXBuildFile; fileRef = 13756A87B9314CCFA16A9809 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.h */; };
+		7D4FF2222AC44425AD35CDC3 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = BAB6B621F6004C9BA33F3379 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp */; };
+		91F560E6D2E149718D02B503 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.ui */ = {isa = PBXBuildFile; fileRef = F6EE6120B69F45DF9A79D187 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.ui */; };
+		B573879B141F41EDBEE38D55 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D46FB6F304C14C569B202858 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */; };
+		B62FF8FDCDFB43F6B88659D7 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = ED6E6F78AF0E46189F66B090 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist */; };
+		B89EC641E3FD49C791FF76CB /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/main.cpp */ = {isa = PBXBuildFile; fileRef = 39E32B5797B84522BC10F39C /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/main.cpp */; };
+		D1B03D57C67E4280BE1347A8 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/qt_story_boards/Official_Release/LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = 4ADE38BBA2A546B4ABCB26CC /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/qt_story_boards/Official_Release/LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0521C73045BA46749A5951C5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		2BCF0F66BF0944538774408F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4A9A8F2FF2BE444E85F8DFAA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		ABA380491E8645DB81A919F1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		14121CAEDB9949F596C72564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA44C7B56E047719BC04A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3FC332F49C44B68FEBB227;
+			remoteInfo = ZERO_CHECK;
+		};
+		5908271C70B84B318FE8EF2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA44C7B56E047719BC04A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3FC332F49C44B68FEBB227;
+			remoteInfo = ZERO_CHECK;
+		};
+		6ECA586C69B94C47A2696136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA44C7B56E047719BC04A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B25BF6C66BD4938A4EE5087;
+			remoteInfo = Official_Release_autogen;
+		};
+		742397BFBBEB4630BE72D363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA44C7B56E047719BC04A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B86A46DA03D46B5BE9C61A3;
+			remoteInfo = Official_Release;
+		};
+		8E93E2E158C5408E8E0BC4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA44C7B56E047719BC04A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3FC332F49C44B68FEBB227;
+			remoteInfo = ZERO_CHECK;
+		};
+		ED84757501DE462BA7536049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA44C7B56E047719BC04A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58991E2308D84107960E8594;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13756A87B9314CCFA16A9809 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainwindow.h; path = mainwindow.h; sourceTree = SOURCE_ROOT; };
+		39E32B5797B84522BC10F39C /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		3DDF3471488C430E80D54BA9 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4ADE38BBA2A546B4ABCB26CC /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/qt_story_boards/Official_Release/LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../build-Official_Release-Qt_6_3_1_for_iOS_Simulator/qt_story_boards/Official_Release/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		548A1B18A5BE473BBC1C38DC /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		94B4B7CEE7AB489B8DD8E792 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainwindow.cpp; path = mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		BAB6B621F6004C9BA33F3379 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "../build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		BFAC4D6D740C4FB5BE1DF615 /* Official_Release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Official_Release; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59ABAE2DC2E49369127F11B /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include/ui_mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_mainwindow.h; path = "../build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include/ui_mainwindow.h"; sourceTree = SOURCE_ROOT; };
+		D46FB6F304C14C569B202858 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED6E6F78AF0E46189F66B090 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F6EE6120B69F45DF9A79D187 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mainwindow.ui; path = mainwindow.ui; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171B010CB4234B27B05C6CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6BFB18DED8462B9DD0B75C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				929E0A6C04D540C0A0AC2555 /* CMake Rules */,
+				3DDF3471488C430E80D54BA9 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2A824CD6814A4D76A58FD49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4457B6AE5582456EB1C8E8DC = {
+			isa = PBXGroup;
+			children = (
+				8D5647A3CEA04DAEA42207EB /* Official_Release */,
+				47380CE89EE5486B8EACA49E /* Official_Release_autogen */,
+				1F6BFB18DED8462B9DD0B75C /* ALL_BUILD */,
+				A349FC57C71C46DC98544E96 /* Products */,
+				2A824CD6814A4D76A58FD49D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47380CE89EE5486B8EACA49E /* Official_Release_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				4997465C9168462CBC1EC45A /* CMake Rules */,
+				548A1B18A5BE473BBC1C38DC /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */,
+			);
+			name = Official_Release_autogen;
+			sourceTree = "<group>";
+		};
+		4997465C9168462CBC1EC45A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5AC85D3984BC42FF9FC7D422 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				13756A87B9314CCFA16A9809 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.h */,
+				C59ABAE2DC2E49369127F11B /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include/ui_mainwindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8D5647A3CEA04DAEA42207EB /* Official_Release */ = {
+			isa = PBXGroup;
+			children = (
+				9B1DC343B9274DA0BCD9F9AC /* Source Files */,
+				5AC85D3984BC42FF9FC7D422 /* Header Files */,
+				DB7B2D39C0C84D0EBFA6BF40 /* Resources */,
+				D46FB6F304C14C569B202858 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/CMakeLists.txt */,
+				F6EE6120B69F45DF9A79D187 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.ui */,
+			);
+			name = Official_Release;
+			sourceTree = "<group>";
+		};
+		929E0A6C04D540C0A0AC2555 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9B1DC343B9274DA0BCD9F9AC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E32B5797B84522BC10F39C /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/main.cpp */,
+				94B4B7CEE7AB489B8DD8E792 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.cpp */,
+				BAB6B621F6004C9BA33F3379 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A349FC57C71C46DC98544E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC4D6D740C4FB5BE1DF615 /* Official_Release */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7B2D39C0C84D0EBFA6BF40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED6E6F78AF0E46189F66B090 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist */,
+				4ADE38BBA2A546B4ABCB26CC /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/qt_story_boards/Official_Release/LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B86A46DA03D46B5BE9C61A3 /* Official_Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D309D4278F945279AE4EC08 /* Build configuration list for PBXNativeTarget "Official_Release" */;
+			buildPhases = (
+				C8959BCE757746F882035A8F /* Resources */,
+				FCA8E4BC37EB4603A2853E4E /* Sources */,
+				171B010CB4234B27B05C6CA9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDF7B5D788F42069090EF21 /* PBXTargetDependency */,
+				A0FCC445D9EB407BB2BAF179 /* PBXTargetDependency */,
+			);
+			name = Official_Release;
+			productName = Official_Release;
+			productReference = BFAC4D6D740C4FB5BE1DF615 /* Official_Release */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA44C7B56E047719BC04A02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 99873911F4294575B1FE7151 /* Build configuration list for PBXProject "Official_Release" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9A8F2FF2BE444E85F8DFAA /* Debug */,
+				2BCF0F66BF0944538774408F /* Release */,
+				0521C73045BA46749A5951C5 /* MinSizeRel */,
+				ABA380491E8645DB81A919F1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4457B6AE5582456EB1C8E8DC;
+			projectDirPath = "/Users/natanon/Documents/Qt/Program-Official/Official_Release";
+			projectRoot = "";
+			targets = (
+				58991E2308D84107960E8594 /* ALL_BUILD */,
+				9B86A46DA03D46B5BE9C61A3 /* Official_Release */,
+				4B25BF6C66BD4938A4EE5087 /* Official_Release_autogen */,
+				EA3FC332F49C44B68FEBB227 /* ZERO_CHECK */,
+				EC835706BD444AB1BA76F5A8 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4B461BD47CE4E679D343FD81 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  make -f /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		56A2A2623AC2EA9D5FFBE115 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		67F08D448993D9F2BEF69D8D /* Generate CMakeFiles/Official_Release_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/Official_Release_autogen";
+			outputPaths = (
+"/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release_autogen","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_Debug/ui_mainwindow.h","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_MinSizeRel/ui_mainwindow.h","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_RelWithDebInfo/ui_mainwindow.h","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_Release/ui_mainwindow.h","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  /Users/natanon/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A976F59C3061CAD7B00204AB /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8959BCE757746F882035A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B03D57C67E4280BE1347A8 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/qt_story_boards/Official_Release/LaunchScreen.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA8E4BC37EB4603A2853E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89EC641E3FD49C791FF76CB /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/main.cpp */,
+				595B212EA91144D9987B9429 /* /Users/natanon/Documents/Qt/Program-Official/Official_Release/mainwindow.cpp */,
+				7D4FF2222AC44425AD35CDC3 /* /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0FCC445D9EB407BB2BAF179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3FC332F49C44B68FEBB227 /* ZERO_CHECK */;
+			targetProxy = 5908271C70B84B318FE8EF2B /* PBXContainerItemProxy */;
+		};
+		B1A171A89E6348749842B173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3FC332F49C44B68FEBB227 /* ZERO_CHECK */;
+			targetProxy = 14121CAEDB9949F596C72564 /* PBXContainerItemProxy */;
+		};
+		CBBA0E87258F4F2CBBC3ADE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B86A46DA03D46B5BE9C61A3 /* Official_Release */;
+			targetProxy = 742397BFBBEB4630BE72D363 /* PBXContainerItemProxy */;
+		};
+		CE6F2619F1214F0DAC792681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3FC332F49C44B68FEBB227 /* ZERO_CHECK */;
+			targetProxy = 8E93E2E158C5408E8E0BC4A2 /* PBXContainerItemProxy */;
+		};
+		DB2E775B2113418D8C56663C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58991E2308D84107960E8594 /* ALL_BUILD */;
+			targetProxy = ED84757501DE462BA7536049 /* PBXContainerItemProxy */;
+		};
+		FDDF7B5D788F42069090EF21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B25BF6C66BD4938A4EE5087 /* Official_Release_autogen */;
+			targetProxy = 6ECA586C69B94C47A2696136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FA797D868E94E96999ED23A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/build";
+			};
+			name = RelWithDebInfo;
+		};
+		137C16B2E9004266B4FC9575 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		19FD108CA6E44925B841D1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		201C8B7B39A04C948B8D1246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator","/Users/natanon/Documents/Qt/Program-Official/Official_Release","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_Debug","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG    '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QICNSPlugin_init/QICNSPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QMacHeifPlugin_init/QMacHeifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QMacJp2Plugin_init/QMacJp2Plugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QTgaPlugin_init/QTgaPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QTiffPlugin_init/QTiffPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QWbmpPlugin_init/QWbmpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QWebpPlugin_init/QWebpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core_debug.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Widgets_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqgif_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqicns_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqico_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/platforms/libqios_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqjpeg_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacheif_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacjp2_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/libqsvgicon_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqsvg_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtga_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtiff_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwbmp_debug.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwebp_debug.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.3.1/ios/lib/libQt6OpenGL_debug.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibjpeg_debug.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Svg_debug.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Gui_debug.a,"-framework CoreGraphics","-framework ImageIO",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core_debug.a,"-framework CoreFoundation","-lm",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledPcre2_debug.a,"-framework MobileCoreServices","-framework OpenGLES","-framework CoreText","-framework Foundation","-framework UIKit","-framework Metal",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledHarfbuzz_debug.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledFreetype_debug.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibpng_debug.a,"-lz","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.3.1/ios/include/QtCore,/Users/natanon/Qt/6.3.1/ios/include,"/Users/natanon/Qt/6.3.1/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.3.1/ios/include/QtWidgets,/Users/natanon/Qt/6.3.1/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2BFD1809E7074BEF9C614ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2E6F79E2026048268047C5AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		30C3965A9070413F9C7DB684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3CE6693673D04DA59734DBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/build";
+			};
+			name = Debug;
+		};
+		4160F1686C34496EA82AAFB5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		474C5F105B5A4B04892FAB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		524E473392134D90B75F6B75 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		558F47F95C03404999C31A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		64C1E3B2BFC347CEAC03BCF6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator","/Users/natanon/Documents/Qt/Program-Official/Official_Release","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_MinSizeRel","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QICNSPlugin_init/QICNSPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QMacHeifPlugin_init/QMacHeifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QMacJp2Plugin_init/QMacJp2Plugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QTgaPlugin_init/QTgaPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QTiffPlugin_init/QTiffPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QWbmpPlugin_init/QWbmpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QWebpPlugin_init/QWebpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Widgets.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqgif.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqicns.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqico.a,/Users/natanon/Qt/6.3.1/ios/plugins/platforms/libqios.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqjpeg.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacheif.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacjp2.a,/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/libqsvgicon.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqsvg.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtga.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtiff.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwbmp.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwebp.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.3.1/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibjpeg.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Svg.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Gui.a,"-framework CoreGraphics","-framework ImageIO",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core.a,"-framework CoreFoundation","-lm",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework OpenGLES","-framework CoreText","-framework Foundation","-framework UIKit","-framework Metal",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledHarfbuzz.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledFreetype.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibpng.a,"-lz","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.3.1/ios/include/QtCore,/Users/natanon/Qt/6.3.1/ios/include,"/Users/natanon/Qt/6.3.1/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.3.1/ios/include/QtWidgets,/Users/natanon/Qt/6.3.1/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		79C719A0D4644CE4A75BAA5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		81536F647A694C7389962B66 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/build";
+			};
+			name = MinSizeRel;
+		};
+		A0D8F0BB50724032B0E0F0B1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A35D05EC187144A9B52BD53C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B1B1E0BB4AF248F3BF14F53D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B678071579ED4B9FAD1A4870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C0B9A4854421436A9995B24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/build";
+			};
+			name = Release;
+		};
+		C25E026E5B1F4ED8A6CA6856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E13851CE2A634E5AB0F7E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator","/Users/natanon/Documents/Qt/Program-Official/Official_Release","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_Release","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QICNSPlugin_init/QICNSPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QMacHeifPlugin_init/QMacHeifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QMacJp2Plugin_init/QMacJp2Plugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QTgaPlugin_init/QTgaPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QTiffPlugin_init/QTiffPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QWbmpPlugin_init/QWbmpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Release/QWebpPlugin_init/QWebpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Widgets.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqgif.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqicns.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqico.a,/Users/natanon/Qt/6.3.1/ios/plugins/platforms/libqios.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqjpeg.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacheif.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacjp2.a,/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/libqsvgicon.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqsvg.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtga.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtiff.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwbmp.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwebp.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.3.1/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibjpeg.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Svg.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Gui.a,"-framework CoreGraphics","-framework ImageIO",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core.a,"-framework CoreFoundation","-lm",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework OpenGLES","-framework CoreText","-framework Foundation","-framework UIKit","-framework Metal",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledHarfbuzz.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledFreetype.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibpng.a,"-lz","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.3.1/ios/include/QtCore,/Users/natanon/Qt/6.3.1/ios/include,"/Users/natanon/Qt/6.3.1/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.3.1/ios/include/QtWidgets,/Users/natanon/Qt/6.3.1/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EF1C05BA158E46AF9158DF57 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator","/Users/natanon/Documents/Qt/Program-Official/Official_Release","/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/Official_Release_autogen/include_RelWithDebInfo","$(inherited)");
+				INFOPLIST_FILE = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/Official_Release.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QICNSPlugin_init/QICNSPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QMacHeifPlugin_init/QMacHeifPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QMacJp2Plugin_init/QMacJp2Plugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QTgaPlugin_init/QTgaPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QTiffPlugin_init/QTiffPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QWbmpPlugin_init/QWbmpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/objects-Debug/QWebpPlugin_init/QWebpPlugin_init.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/natanon/Qt/6.3.1/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Widgets.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqgif.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqicns.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqico.a,/Users/natanon/Qt/6.3.1/ios/plugins/platforms/libqios.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqjpeg.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacheif.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqmacjp2.a,/Users/natanon/Qt/6.3.1/ios/plugins/iconengines/libqsvgicon.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqsvg.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtga.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqtiff.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwbmp.a,/Users/natanon/Qt/6.3.1/ios/plugins/imageformats/libqwebp.a,"-framework AudioToolbox","-framework QuartzCore",/Users/natanon/Qt/6.3.1/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibjpeg.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Svg.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6Gui.a,"-framework CoreGraphics","-framework ImageIO",/Users/natanon/Qt/6.3.1/ios/lib/libQt6Core.a,"-framework CoreFoundation","-lm",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework OpenGLES","-framework CoreText","-framework Foundation","-framework UIKit","-framework Metal",/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledHarfbuzz.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledFreetype.a,/Users/natanon/Qt/6.3.1/ios/lib/libQt6BundledLibpng.a,"-lz","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Official_Release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/natanon/Qt/6.3.1/ios/include/QtCore,/Users/natanon/Qt/6.3.1/ios/include,"/Users/natanon/Qt/6.3.1/ios/mkspecs/macx-ios-clang",/Users/natanon/Qt/6.3.1/ios/include/QtWidgets,/Users/natanon/Qt/6.3.1/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EFC00F8109AD40FFBA028B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BFAB75D4E54425AB366D690 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474C5F105B5A4B04892FAB2E /* Debug */,
+				EFC00F8109AD40FFBA028B7B /* Release */,
+				B1B1E0BB4AF248F3BF14F53D /* MinSizeRel */,
+				A0D8F0BB50724032B0E0F0B1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2BAE51CA06DA44E9B9271F62 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFD1809E7074BEF9C614ED0 /* Debug */,
+				30C3965A9070413F9C7DB684 /* Release */,
+				2E6F79E2026048268047C5AE /* MinSizeRel */,
+				137C16B2E9004266B4FC9575 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D309D4278F945279AE4EC08 /* Build configuration list for PBXNativeTarget "Official_Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201C8B7B39A04C948B8D1246 /* Debug */,
+				E13851CE2A634E5AB0F7E868 /* Release */,
+				64C1E3B2BFC347CEAC03BCF6 /* MinSizeRel */,
+				EF1C05BA158E46AF9158DF57 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		303A0D67C4B6453BB30C981B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558F47F95C03404999C31A55 /* Debug */,
+				C25E026E5B1F4ED8A6CA6856 /* Release */,
+				A35D05EC187144A9B52BD53C /* MinSizeRel */,
+				4160F1686C34496EA82AAFB5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99873911F4294575B1FE7151 /* Build configuration list for PBXProject "Official_Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE6693673D04DA59734DBE6 /* Debug */,
+				C0B9A4854421436A9995B24A /* Release */,
+				81536F647A694C7389962B66 /* MinSizeRel */,
+				0FA797D868E94E96999ED23A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A694F021F1BD4A5BBA0760DE /* Build configuration list for PBXAggregateTarget "Official_Release_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B678071579ED4B9FAD1A4870 /* Debug */,
+				19FD108CA6E44925B841D1E5 /* Release */,
+				524E473392134D90B75F6B75 /* MinSizeRel */,
+				79C719A0D4644CE4A75BAA5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DA44C7B56E047719BC04A02 /* Project object */;
+}

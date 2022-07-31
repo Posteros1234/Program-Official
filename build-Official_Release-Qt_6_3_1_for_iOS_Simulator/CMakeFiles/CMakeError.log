@@ -1,0 +1,66 @@
+Performing C++ SOURCE FILE Test HAVE_EGL failed with the following output:
+Change Dir: /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_12f04 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2022-07-31 12:26:21.445 xcodebuild[8246:138930] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-07-31 12:26:21.446 xcodebuild[8246:138930] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_12f04 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 17843731898c77bc9fadd77814aeb3e3
+Build description path: /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/build/XCBuildData/17843731898c77bc9fadd77814aeb3e3-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+    cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug
+
+MkDir /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_12f04.app (in target 'cmTC_12f04' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /bin/mkdir -p /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_12f04.app
+
+ProcessInfoPlistFile /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_12f04.app/Info.plist /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_12f04.dir/Info.plist (in target 'cmTC_12f04' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_12f04.dir/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_12f04.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/cmTC_12f04.app/Info.plist
+
+CompileC /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/src.o /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_12f04' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\=\"Debug-iphonesimulator\" -DHAVE_EGL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug/include -I/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/DerivedSources-normal/x86_64 -I/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/DerivedSources/x86_64 -I/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/DerivedSources -F/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/Debug -DQT_QML_DEBUG -std\=gnu++17 -MMD -MT dependencies -MF /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/src.dia -c /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx -o /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/src.o
+/Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'EGL/egl.h' file not found
+#include <EGL/egl.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+WriteAuxiliaryFile /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/cmTC_12f04.LinkFileList (in target 'cmTC_12f04' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp
+    write-file /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/cmTC_12f04.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphonesimulator/cmTC_12f04.build/Objects-normal/x86_64/src.o /Users/natanon/Documents/Qt/Program-Official/build-Official_Release-Qt_6_3_1_for_iOS_Simulator/CMakeFiles/CMakeTmp/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_12f04' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+#include <EGL/egl.h>
+
+int main(int, char **) {
+    EGLint x = 0; EGLDisplay dpy = 0; EGLContext ctx = 0;
+    eglDestroyContext(dpy, ctx);
+}
